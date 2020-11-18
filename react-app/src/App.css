@@ -1,0 +1,42 @@
+#my-canvas {
+  width: 100%;
+  height: 100%;
+}
+#renderOuter {
+  width: 100%;
+  height: 100%;
+}
+#renderCanvas{
+  width: 100%;
+  height: 100%;
+}
+#myVideo {
+  width: 20vw;
+  height: 20vh;
+  float: left;
+  position: absolute;
+  -moz-transform:scaleX(-1);
+  -webkit-transform:scaleX(-1);
+  -o-transform:scaleX(-1);
+  transform:scaleX(-1);
+  visibility: hidden;
+}
+#stick{
+  width: 2vmax;
+  height: 100vmin;
+  position: absolute;
+  /* background-color: aquamarine; */
+}
+#bottom{ 
+  width: 4vmin;
+  height: 10vmin;
+  background-color: #456cd8; 
+  margin-top: 45vmin;
+  border: none;
+  font-size: 16px;
+  /* border-radius: 0 20vw 20vw 0; */
+  border-radius: 30vmin 0 0 30vmin;
+  opacity:0.4;
+}
+
+

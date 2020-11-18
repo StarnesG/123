@@ -1,0 +1,199 @@
+{
+  "asset": {
+    "generator": "BabylonJS",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "byteLength": 89632,
+      "uri": "skybox.bin"
+    }
+  ],
+  "nodes": [
+    {
+      "name": "default light",
+      "rotation": [
+        0,
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "skybox",
+      "scale": [
+        5,
+        5,
+        5
+      ],
+      "rotation": [
+        0.000052451480111820265,
+        0.00608982904722834,
+        -0.008612485120983452,
+        0.9999443666179927
+      ],
+      "mesh": 0
+    },
+    {
+      "name": "__root__",
+      "scale": [
+        1,
+        1,
+        -1
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "children": [
+        1,
+        0
+      ]
+    },
+    {
+      "name": "default light",
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "nodes": [
+        2,
+        3
+      ]
+    }
+  ],
+  "scene": 0,
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 19788,
+      "name": "position - skybox",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19788,
+      "byteOffset": 19788,
+      "name": "normal - skybox",
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteLength": 13192,
+      "byteOffset": 39576,
+      "name": "uv - skybox",
+      "byteStride": 8
+    },
+    {
+      "buffer": 0,
+      "byteLength": 36864,
+      "byteOffset": 52768,
+      "name": "Indices - skybox"
+    }
+  ],
+  "accessors": [
+    {
+      "name": "position - skybox",
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1649,
+      "type": "VEC3",
+      "min": [
+        -1262.9906005859375,
+        -1147.1231689453125,
+        -1228.2650146484375
+      ],
+      "max": [
+        1043.384765625,
+        1159.252197265625,
+        1078.1103515625
+      ],
+      "byteOffset": 0
+    },
+    {
+      "name": "normal - skybox",
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1649,
+      "type": "VEC3",
+      "byteOffset": 0
+    },
+    {
+      "name": "uv - skybox",
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1649,
+      "type": "VEC2",
+      "byteOffset": 0
+    },
+    {
+      "name": "indices - skybox",
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 9216,
+      "type": "SCALAR",
+      "byteOffset": 0
+    }
+  ],
+  "materials": [
+    {
+      "name": "skyboxMat",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.3288090062081349
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "skyboxMat (Base Color)",
+      "sampler": 0
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "images": [
+    {
+      "name": "skyboxMat (Base Color)",
+      "uri": "skyboxMat (Base Color).png"
+    }
+  ]
+}
